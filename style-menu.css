@@ -31,29 +31,43 @@ header {
 
 .product {
     display: grid;
-    height: 350px;
-    width: 350px;
+    height: 230px;
+    width: 265px;
     border: 1px solid #ccc;
-    padding: 20px;
-    background-color: #fff;
+    padding: 2%;
+    background-color: #ffffff;
     border-radius: 5px;
     text-align: center;
     transition: transform 0.3s ease, box-shadow 0.3s ease;
+    
+    & .imagen{
+        width: 150px;
+        height: 100px;
+        margin: 0 auto;
+        
+    }
+   
 }
 
 h2 {
     position: relative;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    font-size: x-large;
-    top: 70px;
+    font-size: large;
+    top: 15px;
 }
 
 p {
     position: relative;
-    text-align: center;
+    text-align: left;
     text-transform: uppercase;
-    top: 50px;
+    top: 0px;
+}
+
+.addToCart{
+    font-size: x-large;
+    position: relative;
+    top: -40px;
 }
 
 .product:hover {
@@ -63,12 +77,13 @@ p {
 
 button {
     background-color: #db241b;
+    height: 30px;
     color: white;
     border: none;
     padding: 10px;
     cursor: pointer;
     border-radius: 5px;
-    margin-top: 55px;
+    margin-top: 0px;
     transition: background-color 0.3s ease;
 }
 
