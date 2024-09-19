@@ -9,7 +9,7 @@
 }
 
 body {
-    background-color: #080202;
+    background-color: black;
     font-family: "Poppins", sans-serif;
 }
 
@@ -176,13 +176,14 @@ body {
 }
 
 .products {
-    background-color: #0d0d0d;
+    background-color: black;
 }
 
 .tabs {
     display: flex;
     flex-wrap: wrap;
-    padding: 100px 0px;
+    padding: 40px 0px;
+    background-color: black;
 }
 
 .tabs label {
@@ -190,6 +191,7 @@ body {
     order: 1;
     display: block;
     padding: 20px 0px;
+    margin: 0 auto;
     text-align: center;
     cursor: pointer;
     color: #a7a7a7;
@@ -277,9 +279,51 @@ body {
 
 
 .info {
-    padding: 100px 0px;
+    
+}
+
+.variedad {
+    height: 260px;
+    width: 100%;
+    background-color: black;
+    
     display: flex;
-    align-items: center;
+    gap: 90px;
+
+    & .card {
+        position: relative;
+        margin: auto 0;
+        width: 150px;
+        height: 180px;
+        background-color: white;
+        top: 90px;
+        left: 40px;
+        border-radius: 12px;
+
+        & .img {
+            text-align: center;
+            width: auto;
+            height: 150px;
+            border-radius: 12px;
+        }
+
+        & .nombre {
+            color: black;
+            font-weight: 600;
+            font-size: larger;
+            text-transform: uppercase;
+            text-align: center;
+            position: relative;
+            top: -20px;
+            word-wrap: break-word; /* Compatibilidad con versiones antiguas de navegadores */
+            overflow-wrap: break-word;
+        }
+    }
+
+    & .card:hover {
+        background-color: white; /* Nuevo color de fondo al pasar el cursor */
+        transform: translateY(-12px); /* Levanta el botón ligeramente */
+    }
 }
 
 .info-img {
@@ -325,7 +369,7 @@ body {
 
 .horario {
     padding: 100px 0px;
-    background-color: #0d0d0d;
+    background-color: black;
 }
 
 .horario-info h2 {
@@ -408,7 +452,7 @@ body {
         top: 100%;
         left: 0;
         right: 0;
-        background-color: #181818;
+        background-color: black;
         display: none;
     }
 
