@@ -1,0 +1,43 @@
+[
+    {
+        "id": 0,
+        "name": "ENTRADAS",
+        "img": {
+            "src": "https://static.vecteezy.com/system/resources/previews/002/426/929/non_2x/french-fries-in-red-paper-box-flat-cartoon-icon-vector.jpg",
+            "alt": ""
+        }
+    },
+
+    {
+        "id": 1,
+        "name": "COMIDAS",
+        "img": {
+            "src": "https://static.vecteezy.com/system/resources/previews/008/361/432/non_2x/simple-and-attractive-burger-logo-vector.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 2,
+        "name": "POSTRES",
+        "img": {
+            "src": "https://static.vecteezy.com/system/resources/previews/030/787/197/original/cupcake-illustration-isolated-on-white-background-cupcake-icon-vector.jpg",
+            "alt": ""
+        }
+    },
+    {
+        "id": 3,
+        "name": "BEBIDAS",
+        "img": {
+            "src": "https://media.istockphoto.com/id/1347469895/es/vector/botella-de-refresco-botella-de-pl%C3%A1stico-con-bebida-icono-de-la-cola-bebida-gaseosa-roja.jpg?s=612x612&w=0&k=20&c=ZdQBeL2j6QKMG7mWPzpKiIM1OymKewhxptOLLLhj77k=",
+            "alt": ""
+        }
+    },
+    {
+        "id": 4,
+        "name": "TRAGOS",
+        "img": {
+            "src": "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQreRejvM655aWVktXuvwJCaczKxpUWcN6iwfes35CRXe7FXcfkYPlR1sB54IXMEAxbUMI&usqp=CAU",
+            "alt": ""
+        }
+    }
+]
